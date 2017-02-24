@@ -66,7 +66,7 @@ $ciudadCollectorObj = new ciudadCollector();
         <br> 
     <div class="contLogin">
           
-                <h1>CREAR Empresa</h1>
+                <h1>CREAR EMPRESA</h1>
             <br> <br>
         <br>  
                 <form class="login" method="post" action="save_empresa.php">

@@ -82,7 +82,7 @@
                <div class="container hidden-xs">
             <div id="margen">
                  
-                    <img class="img-responsive" src="imagenes/redbird-drone-1.jpg" alt="" width="100%">
+                    <img class="img-responsive" src="imagenes/redbird-drone-1.jpg" alt="">
                  <div id="derechos">
                   <div class="row">
                       
