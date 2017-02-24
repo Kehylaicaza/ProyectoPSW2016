@@ -4,9 +4,6 @@ session_start();
 <?php
 include_once("empresaCollector.php");
 include_once("../ciudad/ciudadCollector.php");
-$usuario = $_SESSION['mineria'];
-$id =1;
-
 $empresaCollectorObj = new empresaCollector();
 
 $ciudadCollectorObj = new ciudadCollector();
@@ -16,7 +13,7 @@ $ciudadCollectorObj = new ciudadCollector();
 <head>
 	<meta charset="utf-8">
 	<title>Clase Empresa</title>
-    <title>Clase Persona </title>
+    
      <link rel="stylesheet" href="../../../css/estilo.css">
     <link href="../../../css/bootstrap.min.css" rel="stylesheet">
     <link href="../../../css/bootstrap.css" rel="stylesheet">
@@ -68,7 +65,11 @@ $ciudadCollectorObj = new ciudadCollector();
                  <br>
         <br> 
     <div class="contLogin">
+            <br>
+        <br>  
+                 <br>
                 <h1>CREAR Empresa</h1>
+            <br>
                 <form class="login" method="post" action="save_empresa.php">
                     <label >Razon Social </label>
                     <input type="text" name="razonsocial">
