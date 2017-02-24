@@ -78,7 +78,6 @@
                                 <a href="modelo/detalle_reporte/read_detalle_reporte.php"#>{ DETALLE REPORTE }</a>
                                 <a href="modelo/datos_tunel/read_datos_tunel.php"#>{ DATOS TUNELES }</a>
                                 <a href="modelo/tunel/read_tunel.php"#>{ TUNEL }</a>
-                                <a href="modelo/mina/read_mina.php"#>{ MINA }</a>
                                 <br>
                                 <h2>Keyla</h2>
                                 <a href="modelo/ciudad/leerCiudad.php"#>{ CIUDAD }</a>
@@ -87,6 +86,7 @@
                                 <br>
                                 <h2>Yander</h2>
                                 <a href="modelo/persona/read_persona.php"#>{ PERSONA }</a>
+                                <a href="modelo/mina/read_mina.php"#>{ MINA }</a>
                                 <a href="modelo/licencia/read_licencia.php"#>{ LICENCIA }</a>
                                 <a href="modelo/dron/read_dron.php"#>{ DRON }</a>
 								<br><br>
