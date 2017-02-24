@@ -67,6 +67,11 @@
             
           <br><br>  
             <div id="ilo">
+                                 <a href="calidad.php"><button>VOLVER</button></a>
+           
+        
+                 <br>
+        <br> 
                                 <h1 class="asd">Tablas de la base de datos</h1>
                                 <h2>Paul</h2>
                                 <a href="modelo/produccion/read_produccion.php"#><button> PRODUCCIÓN</button></a>

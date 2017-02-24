@@ -61,7 +61,7 @@ $ciudadCollectorObj = new ciudadCollector();
                  <br>
         <br> 
     
-    <a href="../../calidad.php"><button>VOLVER A TABLAS</button></a>
+    <a href="../../administrar.php"><button>VOLVER</button></a>
            
         
                  <br>
