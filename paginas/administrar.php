@@ -76,7 +76,7 @@
                                 <h2>Kimmy</h2>
                                 <a href="modelo/reporte_tuneles/read_reporte_tuneles.php"#><button>REPORTE TUNELES</button></a>
                                 <a href="modelo/detalle_reporte/read_detalle_reporte.php"#><button>DETALLE REPORTE</button></a>
-                                <a href="modelo/datos_tunel/read_datos_tunel.php"#>DATOS TUNELES</a>
+                                <a href="modelo/datos_tunel/read_datos_tunel.php"#><button>DATOS TUNELES</button></a>
                                 <a href="modelo/tunel/read_tunel.php"#><button>TUNEL</button></a>
                                 <br>
                                 <h2>Keyla</h2>
