@@ -31,8 +31,7 @@ $PersonaCollectorObj = new PersonaCollector();
         ?>
             
             <h4>Usuario o contraseña incorrecta</h4>
-            <a href="login.php"><button class="boton">Regresar</button></a>
-                
+            <meta HTTP-EQUIV='REFRESH' CONTENT='1;URL=login.php'>
         
         <?php
              
