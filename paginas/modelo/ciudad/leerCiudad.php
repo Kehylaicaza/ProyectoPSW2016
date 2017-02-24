@@ -61,7 +61,12 @@ $ciudadCollectorObj = new ciudadCollector();
                  <br>
         <br> 
     
-    
+    <a href="../../calidad.php"><button>VOLVER A TABLAS</button></a>
+           
+        
+                 <br>
+        <br> 
+       
     <h1>TABLA CIUDAD</h1>
     <a href="create_ciudad.php"><button class="crear">CREAR</button></a>
     <table>
