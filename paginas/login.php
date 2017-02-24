@@ -21,7 +21,7 @@
 <body>
      <?php
 		  if (!isset($_SESSION['mineria'])){
-              $_SESSION['mineria']= "keilita@hotmail.com";
+              #$_SESSION['mineria']= "keilita@hotmail.com";
     ?>
         <div class="container">
         <br>
