@@ -69,7 +69,7 @@
             <div id="ilo">
                                 <h1 class="asd">Tablas de la base de datos</h1>
                                 <h2>Paul</h2>
-                                <a href="modelo/produccion/read_produccion.php"#>{ PRODUCCIÓN }</a>
+                                <a href="modelo/produccion/read_produccion.php"#><button>{ PRODUCCIÓN}</button></a>
                                 <a href="modelo/detalle_produccion/read_detalle_produccion.php"#>{ DETALLE DE PRODUCCIÓN }</a>
                                 <a href="modelo/mineral/read_mineral.php"#>{ MINERAL }</a>
                                 <br>
