@@ -65,12 +65,13 @@ $ciudadCollectorObj = new ciudadCollector();
                  <br>
         <br> 
     <div class="contLogin">
-            <br>
-        <br>  
-                 <br>
+          
                 <h1>CREAR Empresa</h1>
-            <br>
+            <br> <br>
+        <br>  
                 <form class="login" method="post" action="save_empresa.php">
+                    
+                 <br>
                     <label >Razon Social </label>
                     <input type="text" name="razonsocial">
                     <br>
