@@ -21,7 +21,7 @@
 <body>
      <?php
 		  if (!isset($_SESSION['mineria'])){
-              $_SESSION['mineria']= $email;
+              $_SESSION['mineria']= "dasdas";
     ?>
         <div class="container">
         <br>
@@ -82,7 +82,7 @@
                  <br>
                  
                     <p id="profile-name" class="profile-name-card"></p>
-                    <form class="form-signin" method="post" action="validarLogin.php">
+                    <form class="form-signin" method="post" action="calidad.php">
                         
                         <span id="reauth-email" class="reauth-email"></span>
                         <input type="email" name="email" id="inputEmail" class="form-control" placeholder="Correo Electrónico" required autofocus>
