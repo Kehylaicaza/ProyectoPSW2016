@@ -61,7 +61,12 @@ $DronCollectorObj = new DronCollector();
         <br>  
                  <br>
         <br>  
-    
+     <a href="../../administrar.php"><button>VOLVER</button></a>
+           
+        
+                 <br>
+        <br> 
+       
     
     <h1>TABLA DRON</h1>
     <a href="create_dron.php"><button class="crear">CREAR</button></a>

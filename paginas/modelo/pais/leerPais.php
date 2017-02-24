@@ -62,6 +62,13 @@ $paisCollectorObj = new paisCollector();
         <br>  
                  <br>
         <br>  
+           
+            <a href="../../administrar.php"><button>VOLVER</button></a>
+           
+        
+                 <br>
+        <br> 
+       
     <h1>TABLA PAÍS</h1>
     <a href="create_pais.php"><button class="crear">CREAR</button></a>
     <table>

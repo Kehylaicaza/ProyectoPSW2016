@@ -66,7 +66,12 @@ $TunelCollectorObj = new TunelCollector();
         <br>  
           
     
-    
+     <a href="../../administrar.php"><button>VOLVER</button></a>
+           
+        
+                 <br>
+        <br> 
+       
     <h1>TABLA TUNEL</h1>
     <a href="create_tunel.php"><button class="crear">CREAR</button></a>
     <table>

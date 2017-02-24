@@ -64,7 +64,12 @@ $produccioncollectorObj = new produccioncollector();
         <br>  
                  <br>
         <br>  
-    
+     <a href="../../administrar.php"><button>VOLVER</button></a>
+           
+        
+                 <br>
+        <br> 
+       
     <h1>TABLA PRODUCCIÓN</h1>
     <a href="create_produccion.php"><button class="crear">CREAR</button></a>
     <table>

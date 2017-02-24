@@ -60,7 +60,12 @@ $ReporteTunelesCollectorObj = new ReporteTunelesCollector();
             <br>
         <br>  
                  <br>
-        <br>  
+        <br>   <a href="../../administrar.php"><button>VOLVER</button></a>
+           
+        
+                 <br>
+        <br> 
+       
           
             <h1>TABLA REPORTE TUNELES</h1>
            <br> 

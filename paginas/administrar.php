@@ -67,7 +67,7 @@
             
           <br><br>  
             <div id="ilo">
-                                 <a href="calidad.php"><button>VOLVER</button></a>
+                                 <a href="calidad.php?ID=1"><button>VOLVER</button></a>
            
         
                  <br>
