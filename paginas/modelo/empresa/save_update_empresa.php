@@ -23,12 +23,15 @@ $empresaCollectorObj = new empresaCollector();
     
     </head>
     <body>
+        
         <?php
+		  if (isset($_SESSION['mineria'])){
         echo "<p>Se modifico una nueva empresa</p>";
         $empresaCollectorObj->updateEmpresa($idEmpresa,$razonsocial,$ruc,$direccion,$telefono,$id_ciudad);
-        ?>
-        <a href="leerEmpresa.php"><button>VOLVER</button></a>
-       
-  
+         echo "<meta HTTP-EQUIV='REFRESH' CONTENT='1;URL=leerempresa.php'>";
+                            }else{   
+                               echo "<meta HTTP-EQUIV='REFRESH' CONTENT='1;URL=../../../index.php'>";
+                             } 
+                        ?>
     </body>
 </html>

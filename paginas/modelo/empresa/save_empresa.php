@@ -23,12 +23,15 @@ $empresaCollectorObj = new empresaCollector();
     
     </head>
     <body>
+       
         <?php
+		  if (isset($_SESSION['mineria'])){
         echo "<p>Se creo un  nueva Empresa </p>";
 $empresaCollectorObj->createEmpresa($razonSocial,$ruc,$telefono,$direccion,$idCiudad);
-        ?>
-        <a href="leerEmpresa.php"><button>volver</button></a>
-       
-  
+         echo "<meta HTTP-EQUIV='REFRESH' CONTENT='1;URL=leerempresa.php'>";
+                            }else{   
+                               echo "<meta HTTP-EQUIV='REFRESH' CONTENT='1;URL=../../../index.php'>";
+                             } 
+                        ?>
     </body>
 </html>

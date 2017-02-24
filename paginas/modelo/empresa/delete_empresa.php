@@ -19,11 +19,13 @@ $empresaCollectorObj = new empresaCollector();
     </head>
     <body>
         <?php
+		  if (isset($_SESSION['mineria'])){
         echo "<p>Se elimino la ciudad #" . $id ." :c </p>";
         $empresaCollectorObj->deleteEmpresa($id);
-        ?>
-        <a href="leerEmpresa.php"><button>VOLVER</button></a>
-       
-  
+         echo "<meta HTTP-EQUIV='REFRESH' CONTENT='1;URL=leerempresa.php'>";
+                            }else{   
+                               echo "<meta HTTP-EQUIV='REFRESH' CONTENT='1;URL=../../../index.php'>";
+                             } 
+                        ?>
     </body>
 </html>
